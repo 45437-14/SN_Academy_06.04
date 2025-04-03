@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Order a new vending machine">6b528343c360e210fb98fd0ed4013157</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-03 13:48:26</sys_created_on>
+        <sys_id>e95241b3c3a0a610fb98fd0ed401316a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order a new vending machine.Any User</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machines">4508a3eec3d86a10fb98fd0ed4013121</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_e95241b3c3a0a610fb98fd0ed401316a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-03 13:48:26</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>
