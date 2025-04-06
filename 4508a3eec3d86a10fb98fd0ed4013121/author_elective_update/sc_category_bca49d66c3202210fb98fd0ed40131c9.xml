@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="DELETE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="4Dot Services">9375f9a5c3ace650fb98fd0ed401317d</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-30 17:56:35</sys_created_on>
+        <sys_id>bca49d66c3202210fb98fd0ed40131c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware</sys_name>
+        <sys_package display_value="4Dot Machines" source="x_1650712_4dot_m_0">4508a3eec3d86a10fb98fd0ed4013121</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machines">4508a3eec3d86a10fb98fd0ed4013121</sys_scope>
+        <sys_update_name>sc_category_bca49d66c3202210fb98fd0ed40131c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-30 17:56:35</sys_updated_on>
+        <title>Hardware</title>
+    </sc_category>
+    <sys_translated_text action="DELETE" query="documentkey=bca49d66c3202210fb98fd0ed40131c9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="4Dot Machines">4508a3eec3d86a10fb98fd0ed4013121</application>
+        <file_path/>
+        <instance_id>23221c4b1b3402d4a43dcb7b234bcbc2</instance_id>
+        <instance_name>dev240238</instance_name>
+        <name>sc_category_bca49d66c3202210fb98fd0ed40131c9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="4Dot Services">9375f9a5c3ace650fb98fd0ed401317d</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-30 17:56:35</sys_created_on><sys_id>bca49d66c3202210fb98fd0ed40131c9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hardware</sys_name><sys_package display_value="4Dot Machines" source="x_1650712_4dot_m_0">4508a3eec3d86a10fb98fd0ed4013121</sys_package><sys_policy/><sys_scope display_value="4Dot Machines">4508a3eec3d86a10fb98fd0ed4013121</sys_scope><sys_update_name>sc_category_bca49d66c3202210fb98fd0ed40131c9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-30 17:56:35</sys_updated_on><title>Hardware</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=bca49d66c3202210fb98fd0ed40131c9"/></record_update>]]></payload>
+        <payload_hash>1332996391</payload_hash>
+        <record_name>Hardware</record_name>
+        <reverted_from/>
+        <source>007717b7c31cee10fb98fd0ed4013115</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-30 17:56:35</sys_created_on>
+        <sys_id>6dc411a6c3202210fb98fd0ed4013186</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195e832c2910000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-30 17:56:35</sys_updated_on>
+        <type>Category</type>
+        <update_guid>61c411a6c82022105f865a683d0de086</update_guid>
+        <update_guid_history>61c411a6c82022105f865a683d0de086:1332996391</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Hardware">5e618efac3e46210fb98fd0ed40131f5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-31 15:50:05</sys_created_on>
+        <sys_db_object display_value="" name="sc_category">sc_category</sys_db_object>
+        <sys_id>3c53171486254956af6a6cd175435404</sys_id>
+        <sys_metadata>bca49d66c3202210fb98fd0ed40131c9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware</sys_name>
+        <sys_package display_value="4Dot Machines" source="x_1650712_4dot_m_0">4508a3eec3d86a10fb98fd0ed4013121</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machines">4508a3eec3d86a10fb98fd0ed4013121</sys_scope>
+        <sys_scope_delete display_value="">3579b0e8ada047c6bcb984198caa4524</sys_scope_delete>
+        <sys_update_name>sc_category_bca49d66c3202210fb98fd0ed40131c9</sys_update_name>
+        <sys_update_version display_value="sc_category_bca49d66c3202210fb98fd0ed40131c9">6dc411a6c3202210fb98fd0ed4013186</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-31 15:50:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

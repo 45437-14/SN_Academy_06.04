@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Default user role</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1650712_4dot_m_0.user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-18 18:24:13</sys_created_on>
+        <sys_id>5908a3eec3d86a10fb98fd0ed401313d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1650712_4dot_m_0.user</sys_name>
+        <sys_package display_value="4Dot Machines" source="x_1650712_4dot_m_0">4508a3eec3d86a10fb98fd0ed4013121</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machines">4508a3eec3d86a10fb98fd0ed4013121</sys_scope>
+        <sys_update_name>sys_user_role_5908a3eec3d86a10fb98fd0ed401313d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-18 18:24:13</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="4Dot Machines">4508a3eec3d86a10fb98fd0ed4013121</application>
+        <file_path/>
+        <instance_id>23221c4b1b3402d4a43dcb7b234bcbc2</instance_id>
+        <instance_name>dev240238</instance_name>
+        <name>sys_user_role_5908a3eec3d86a10fb98fd0ed401313d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Default user role</description><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_1650712_4dot_m_0.user</name><scoped_admin>false</scoped_admin><suffix>user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-18 18:24:13</sys_created_on><sys_id>5908a3eec3d86a10fb98fd0ed401313d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1650712_4dot_m_0.user</sys_name><sys_package display_value="4Dot Machines" source="x_1650712_4dot_m_0">4508a3eec3d86a10fb98fd0ed4013121</sys_package><sys_policy/><sys_scope display_value="4Dot Machines">4508a3eec3d86a10fb98fd0ed4013121</sys_scope><sys_update_name>sys_user_role_5908a3eec3d86a10fb98fd0ed401313d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-18 18:24:13</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-2115095123</payload_hash>
+        <record_name>x_1650712_4dot_m_0.user</record_name>
+        <reverted_from/>
+        <source>dd08a3eec3d86a10fb98fd0ed4013131</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-18 18:24:13</sys_created_on>
+        <sys_id>d908a3eec3d86a10fb98fd0ed4013140</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195aa7fbda10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-18 18:24:13</sys_updated_on>
+        <type>Role</type>
+        <update_guid>dd08a3ee4cd86a10f397b05106f43d3f</update_guid>
+        <update_guid_history>dd08a3ee4cd86a10f397b05106f43d3f:-2115095123</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1650712_4dot_m_0.user">8a8271e3c350ae10fb98fd0ed4013110</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 12:24:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>71eb357d0ef04364acbdeb653052ee90</sys_id>
+        <sys_metadata>5908a3eec3d86a10fb98fd0ed401313d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1650712_4dot_m_0.user</sys_name>
+        <sys_package display_value="4Dot Machines" source="x_1650712_4dot_m_0">4508a3eec3d86a10fb98fd0ed4013121</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machines">4508a3eec3d86a10fb98fd0ed4013121</sys_scope>
+        <sys_scope_delete display_value="">3579b0e8ada047c6bcb984198caa4524</sys_scope_delete>
+        <sys_update_name>sys_user_role_5908a3eec3d86a10fb98fd0ed401313d</sys_update_name>
+        <sys_update_version display_value="sys_user_role_5908a3eec3d86a10fb98fd0ed401313d">d908a3eec3d86a10fb98fd0ed4013140</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 12:24:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

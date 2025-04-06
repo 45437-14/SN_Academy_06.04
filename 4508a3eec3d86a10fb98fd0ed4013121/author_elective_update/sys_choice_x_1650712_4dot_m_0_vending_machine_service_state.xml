@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-03-18 19:18:55</sys_created_on>
-            <sys_id>ba84bfaec31c6a10fb98fd0ed4013188</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>state</sys_name>
             <sys_package display_value="4Dot Machines" source="x_1650712_4dot_m_0">4508a3eec3d86a10fb98fd0ed4013121</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2025-03-18 19:18:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>7684bfaec31c6a10fb98fd0ed4013188</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-03-18 19:18:55</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2025-03-18 19:18:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>3a84bfaec31c6a10fb98fd0ed4013196</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-03-18 19:18:55</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2025-03-18 19:18:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>7684bfaec31c6a10fb98fd0ed4013197</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-03-18 19:18:55</sys_updated_on>
@@ -90,7 +86,6 @@
             <sys_created_on>2025-03-18 19:18:56</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>b284bfaec31c6a10fb98fd0ed4013198</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-03-18 19:18:56</sys_updated_on>
@@ -110,7 +105,6 @@
             <sys_created_on>2025-03-18 19:18:56</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>fe84bfaec31c6a10fb98fd0ed4013198</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-03-18 19:18:56</sys_updated_on>
@@ -130,7 +124,6 @@
             <sys_created_on>2025-03-18 19:18:56</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>3e84bfaec31c6a10fb98fd0ed4013199</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-03-18 19:18:56</sys_updated_on>
