@@ -2,24 +2,24 @@
     <sys_user_role action="INSERT_OR_UPDATE">
         <assignable_by/>
         <can_delegate>true</can_delegate>
-        <description/>
+        <description>able to readand write existing and to create and write</description>
         <elevated_privilege>false</elevated_privilege>
         <grantable>true</grantable>
         <includes_roles/>
-        <name>x_1650712_4dot_m_0.service_user</name>
+        <name>x_1650712_4dot_m_0.Service support</name>
         <scoped_admin>false</scoped_admin>
-        <suffix>service_user</suffix>
+        <suffix>Service support</suffix>
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-03-21 12:14:35</sys_created_on>
-        <sys_id>621071efc310ae10fb98fd0ed401319c</sys_id>
+        <sys_created_on>2025-04-10 14:34:09</sys_created_on>
+        <sys_id>67ef0986c378a6101e1e95dc05013166</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_1650712_4dot_m_0.service_user</sys_name>
+        <sys_name>x_1650712_4dot_m_0.Service support</sys_name>
         <sys_package display_value="4Dot Machines" source="x_1650712_4dot_m_0">4508a3eec3d86a10fb98fd0ed4013121</sys_package>
         <sys_policy/>
         <sys_scope display_value="4Dot Machines">4508a3eec3d86a10fb98fd0ed4013121</sys_scope>
-        <sys_update_name>sys_user_role_621071efc310ae10fb98fd0ed401319c</sys_update_name>
+        <sys_update_name>sys_user_role_67ef0986c378a6101e1e95dc05013166</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-21 12:14:35</sys_updated_on>
+        <sys_updated_on>2025-04-10 14:34:09</sys_updated_on>
     </sys_user_role>
 </record_update>

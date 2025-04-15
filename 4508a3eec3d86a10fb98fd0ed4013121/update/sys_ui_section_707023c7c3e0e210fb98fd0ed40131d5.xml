@@ -4,97 +4,111 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-01 17:23:48</sys_created_on>
-            <sys_id>3870230bc3e0e210fb98fd0ed4013194</sys_id>
+            <sys_created_on>2025-04-12 09:48:54</sys_created_on>
+            <sys_id>2cd1622ec3b46a101e1e95dc050131aa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1650712_4dot_m_0_cmdb_ci_vending_machine" sys_domain="global" view="Default view">707023c7c3e0e210fb98fd0ed40131d5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-01 17:23:48</sys_updated_on>
+            <sys_updated_on>2025-04-12 09:48:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-12 09:48:54</sys_created_on>
+            <sys_id>24d1622ec3b46a101e1e95dc050131ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1650712_4dot_m_0_cmdb_ci_vending_machine" sys_domain="global" view="Default view">707023c7c3e0e210fb98fd0ed40131d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-12 09:48:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>asset_tag</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-01 17:23:48</sys_created_on>
-            <sys_id>3070230bc3e0e210fb98fd0ed4013195</sys_id>
+            <sys_created_on>2025-04-12 09:48:54</sys_created_on>
+            <sys_id>2cd1622ec3b46a101e1e95dc050131ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1650712_4dot_m_0_cmdb_ci_vending_machine" sys_domain="global" view="Default view">707023c7c3e0e210fb98fd0ed40131d5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-01 17:23:48</sys_updated_on>
+            <sys_updated_on>2025-04-12 09:48:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-01 17:23:48</sys_created_on>
-            <sys_id>b470230bc3e0e210fb98fd0ed4013195</sys_id>
+            <sys_created_on>2025-04-12 09:48:54</sys_created_on>
+            <sys_id>24d1622ec3b46a101e1e95dc050131ac</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1650712_4dot_m_0_cmdb_ci_vending_machine" sys_domain="global" view="Default view">707023c7c3e0e210fb98fd0ed40131d5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-01 17:23:48</sys_updated_on>
+            <sys_updated_on>2025-04-12 09:48:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>category</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-01 17:23:48</sys_created_on>
-            <sys_id>3c70230bc3e0e210fb98fd0ed4013195</sys_id>
+            <sys_created_on>2025-04-12 09:48:54</sys_created_on>
+            <sys_id>2cd1622ec3b46a101e1e95dc050131ac</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1650712_4dot_m_0_cmdb_ci_vending_machine" sys_domain="global" view="Default view">707023c7c3e0e210fb98fd0ed40131d5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-01 17:23:48</sys_updated_on>
+            <sys_updated_on>2025-04-12 09:48:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>fault_count</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-01 17:23:48</sys_created_on>
-            <sys_id>b070230bc3e0e210fb98fd0ed4013196</sys_id>
+            <sys_created_on>2025-04-12 09:48:54</sys_created_on>
+            <sys_id>24d1622ec3b46a101e1e95dc050131ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1650712_4dot_m_0_cmdb_ci_vending_machine" sys_domain="global" view="Default view">707023c7c3e0e210fb98fd0ed40131d5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-01 17:23:48</sys_updated_on>
+            <sys_updated_on>2025-04-12 09:48:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>install_date</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-01 17:23:48</sys_created_on>
-            <sys_id>3870230bc3e0e210fb98fd0ed4013196</sys_id>
+            <sys_created_on>2025-04-12 09:48:54</sys_created_on>
+            <sys_id>2cd1622ec3b46a101e1e95dc050131ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1650712_4dot_m_0_cmdb_ci_vending_machine" sys_domain="global" view="Default view">707023c7c3e0e210fb98fd0ed40131d5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-01 17:23:48</sys_updated_on>
+            <sys_updated_on>2025-04-12 09:48:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>install_status</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-01 17:23:48</sys_created_on>
-            <sys_id>bc70230bc3e0e210fb98fd0ed4013196</sys_id>
+            <sys_created_on>2025-04-12 09:48:54</sys_created_on>
+            <sys_id>24d1622ec3b46a101e1e95dc050131ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1650712_4dot_m_0_cmdb_ci_vending_machine" sys_domain="global" view="Default view">707023c7c3e0e210fb98fd0ed40131d5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-01 17:23:48</sys_updated_on>
+            <sys_updated_on>2025-04-12 09:48:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
