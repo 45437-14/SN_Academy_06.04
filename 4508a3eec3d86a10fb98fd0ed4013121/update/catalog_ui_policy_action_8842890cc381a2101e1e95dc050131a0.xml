@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Refill Vending Machine">f517fd29c3ace650fb98fd0ed401318b</catalog_item>
+        <catalog_variable>IO:0e89522fc37022101e1e95dc05013103</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-16 18:42:25</sys_created_on>
+        <sys_id>8842890cc381a2101e1e95dc050131a0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>last_service</sys_name>
+        <sys_package display_value="4Dot Machines" source="x_1650712_4dot_m_0">4508a3eec3d86a10fb98fd0ed4013121</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machines">4508a3eec3d86a10fb98fd0ed4013121</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_8842890cc381a2101e1e95dc050131a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-16 18:54:36</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Current state  and last service">bbe892ebc37022101e1e95dc05013177</ui_policy>
+        <value/>
+        <value_action>clear_value</value_action>
+        <variable>last_service</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=8842890cc381a2101e1e95dc050131a0"/>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1650712_4dot_m_0_employer_branding</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>POST numerology</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var prefix = "POST";
+    var tableName = 'x_1650712_4dot_m_0_employer_branding';
+    var nextNumber = 1;
+
+    var gr = new GlideRecord(tableName);
+    gr.addQuery('number', 'STARTSWITH', prefix);
+    gr.orderByDesc('sys_created_on');
+    gr.setLimit(1);
+    gr.query();
+
+    if (gr.next()) {
+        var lastNumber = gr.getValue('number');
+        var numericPart = parseInt(lastNumber.substring(prefix.length), 10);
+        if (!isNaN(numericPart)) {
+            nextNumber = numericPart + 1;
+        }
+    }
+
+    current.number = prefix + nextNumber.toString().padStart(5, '0');
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-22 20:32:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>05b41c06c34dea101e1e95dc050131e3</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>POST numerology</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="4Dot Machines" source="x_1650712_4dot_m_0">4508a3eec3d86a10fb98fd0ed4013121</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machines">4508a3eec3d86a10fb98fd0ed4013121</sys_scope>
+        <sys_update_name>sys_script_05b41c06c34dea101e1e95dc050131e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-25 19:15:07</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=05b41c06c34dea101e1e95dc050131e3"/>
+</record_update>

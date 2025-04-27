@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <attributes/>
         <cat_item display_value="Refill Vending Machine">f517fd29c3ace650fb98fd0ed401318b</cat_item>
         <category/>
@@ -26,16 +26,16 @@
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <hidden>false</hidden>
+        <hidden>true</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
         <list_table/>
         <lookup_label/>
         <lookup_price/>
-        <lookup_table/>
+        <lookup_table>x_1650712_4dot_m_0_vending_machine_service</lookup_table>
         <lookup_unique>false</lookup_unique>
-        <lookup_value/>
+        <lookup_value>last_time_serviced</lookup_value>
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
@@ -44,7 +44,7 @@
         <mask_use_encryption>false</mask_use_encryption>
         <name>last_service</name>
         <not_available_conversation>false</not_available_conversation>
-        <order/>
+        <order>400</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -58,7 +58,7 @@
         <record/>
         <record_producer_table/>
         <reference>x_1650712_4dot_m_0_vending_machine_service</reference>
-        <reference_qual>last_time_servicedONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^EQ</reference_qual>
+        <reference_qual/>
         <reference_qual_condition table="x_1650712_4dot_m_0_vending_machine_service">last_time_servicedONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^EQ<item endquery="false" field="last_time_serviced" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
@@ -81,22 +81,22 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-15 11:47:42</sys_created_on>
         <sys_id>0e89522fc37022101e1e95dc05013103</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Last service:</sys_name>
         <sys_package display_value="4Dot Machines" source="x_1650712_4dot_m_0">4508a3eec3d86a10fb98fd0ed4013121</sys_package>
         <sys_policy/>
         <sys_scope display_value="4Dot Machines">4508a3eec3d86a10fb98fd0ed4013121</sys_scope>
         <sys_update_name>item_option_new_0e89522fc37022101e1e95dc05013103</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-15 12:39:59</sys_updated_on>
+        <sys_updated_on>2025-04-16 18:48:50</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>8</type>
+        <type>18</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
         <variable_set/>

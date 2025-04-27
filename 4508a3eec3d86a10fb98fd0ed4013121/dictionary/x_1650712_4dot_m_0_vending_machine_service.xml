@@ -6,7 +6,7 @@
                 <element inactive_on_update="false" label="drinks" sequence="1" value="drinks"/>
             </choice>
         </element>
-        <element label="Last time serviced" max_length="40" name="last_time_serviced" type="glide_date_time"/>
+        <element display="true" label="Last time serviced" max_length="40" name="last_time_serviced" type="glide_date_time"/>
         <element label="Service group" max_length="32" name="service_group" reference="sys_user_group" type="reference"/>
         <element label="Date of installation" max_length="40" name="date_of_installation" type="glide_date_time"/>
         <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>

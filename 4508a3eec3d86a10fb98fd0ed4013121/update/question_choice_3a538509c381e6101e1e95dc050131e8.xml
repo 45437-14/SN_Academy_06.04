@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Platform">862ff841c381e6101e1e95dc05013109</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-19 21:20:59</sys_created_on>
+        <sys_id>3a538509c381e6101e1e95dc050131e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Instagram</sys_name>
+        <sys_package display_value="4Dot Machines" source="x_1650712_4dot_m_0">4508a3eec3d86a10fb98fd0ed4013121</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machines">4508a3eec3d86a10fb98fd0ed4013121</sys_scope>
+        <sys_update_name>question_choice_3a538509c381e6101e1e95dc050131e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-19 21:20:59</sys_updated_on>
+        <text>Instagram</text>
+        <value>instagram</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=3a538509c381e6101e1e95dc050131e8"/>
+</record_update>
