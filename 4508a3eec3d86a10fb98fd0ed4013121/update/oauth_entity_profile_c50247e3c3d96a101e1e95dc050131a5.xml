@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <grant_type>password</grant_type>
+        <jwt_provider/>
+        <name>Facebook Publisher OAuth default_profile</name>
+        <oauth_entity display_value="Facebook Publisher OAuth">97e0cf63c3d96a101e1e95dc050131a8</oauth_entity>
+        <saml2_assertion_producer/>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-10 11:14:52</sys_created_on>
+        <sys_id>c50247e3c3d96a101e1e95dc050131a5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Facebook Publisher OAuth default_profile</sys_name>
+        <sys_package display_value="4Dot Machines" source="x_1650712_4dot_m_0">4508a3eec3d86a10fb98fd0ed4013121</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machines">4508a3eec3d86a10fb98fd0ed4013121</sys_scope>
+        <sys_update_name>oauth_entity_profile_c50247e3c3d96a101e1e95dc050131a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-11 19:19:42</sys_updated_on>
+    </oauth_entity_profile>
+</record_update>

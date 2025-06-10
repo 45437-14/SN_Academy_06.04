@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>oauth2</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>application/x-www-form-urlencoded&#13;
+</content>
+        <function_name>Post Message (FB)</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile display_value="Facebook Publisher OAuth default_profile">c50247e3c3d96a101e1e95dc050131a5</oauth2_profile>
+        <protocol_name/>
+        <qualified_name>FB post publisher v2 [ Post Message (FB) ]</qualified_name>
+        <rest_endpoint>https://graph.facebook.com/v22.0/686919854486138/feed</rest_endpoint>
+        <rest_message display_value="FB post publisher v2">c512b66fc3596a101e1e95dc0501310f</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-10 10:16:52</sys_created_on>
+        <sys_id>4de3f663c3996a101e1e95dc050131d2</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Post Message (FB)</sys_name>
+        <sys_package display_value="4Dot Machines" source="x_1650712_4dot_m_0">4508a3eec3d86a10fb98fd0ed4013121</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machines">4508a3eec3d86a10fb98fd0ed4013121</sys_scope>
+        <sys_update_name>sys_rest_message_fn_4de3f663c3996a101e1e95dc050131d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-12 16:59:30</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

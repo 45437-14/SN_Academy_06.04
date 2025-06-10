@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sc_req_item</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="sc_req_item">null<item endquery="false" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Start Flow - Employer branding</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, gSNC) {
+  gs.info(']]>🚀<![CDATA[ BR wystartowała dla: ' + current.number);
+  gs.info(']]>📋<![CDATA[ cat_item = ' + current.cat_item.getDisplayValue());
+
+  if (current.cat_item.getDisplayValue() === 'Social Media Post Proposal') {
+    gs.info('✅ BR odpala Flow dla: ' + current.number);
+
+    var flowAPI = new sn_fd.FlowAPI();
+    var inputs = {
+      ritm_sys_id: current.sys_id.toString() // <-- KLUCZOWA ZMIANA!
+    };
+
+    flowAPI.startFlow(
+      '5a1ec002c34dea101e1e95dc0501313e', // Twój Flow sys_id
+      current,
+      inputs
+    );
+  } else {
+    gs.info('❌ BR NIE odpalił Flow – niewłaściwy katalog: ' + current.cat_item.getDisplayValue());
+  }
+})(current, gSNC);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-04 12:30:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aca8dc31c31522101e1e95dc0501311a</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Start Flow - Employer branding</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="4Dot Machines" source="x_1650712_4dot_m_0">4508a3eec3d86a10fb98fd0ed4013121</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machines">4508a3eec3d86a10fb98fd0ed4013121</sys_scope>
+        <sys_update_name>sys_script_aca8dc31c31522101e1e95dc0501311a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-04 21:23:54</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=aca8dc31c31522101e1e95dc0501311a"/>
+</record_update>

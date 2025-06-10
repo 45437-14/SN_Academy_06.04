@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Social Media Post">c7d89631c39d22101e1e95dc050131c9</catalog_item>
+        <catalog_variable>IO:82b566b5c3dd22101e1e95dc05013162</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message>Please change to future date!</field_message>
+        <field_message_type>error</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-05 09:40:28</sys_created_on>
+        <sys_id>301c78c2c3d962101e1e95dc050131a3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>preferred_date</sys_name>
+        <sys_package display_value="4Dot Machines" source="x_1650712_4dot_m_0">4508a3eec3d86a10fb98fd0ed4013121</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machines">4508a3eec3d86a10fb98fd0ed4013121</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_301c78c2c3d962101e1e95dc050131a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-05 09:51:47</sys_updated_on>
+        <table/>
+        <ui_policy display_value="date validation">10cb70c2c3d962101e1e95dc05013177</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>preferred_date</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=301c78c2c3d962101e1e95dc050131a3"/>
+</record_update>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1650712_4dot_m_0_employer_branding</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Social media Posti - plat&amp;time collision</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current) {
+    var base = new GlideDateTime(current.preferred_date);
+    var oneHourBefore = new GlideDateTime(base);
+    var oneHourAfter = new GlideDateTime(base);
+    oneHourBefore.subtract(60 * 60 * 1000); // -1h
+    oneHourAfter.add(60 * 60 * 1000); // +1h
+
+    gs.info(']]>🕒<![CDATA[ preferred_date: ' + base.getDisplayValue());
+    gs.info(']]>🔻<![CDATA[ -1h: ' + oneHourBefore.getDisplayValue());
+    gs.info(']]>🔺<![CDATA[ +1h: ' + oneHourAfter.getDisplayValue());
+
+    var gr = new GlideRecord('x_1650712_4dot_m_0_employer_branding');
+    gr.addQuery('platform', current.platform);
+    gr.addQuery('preferred_date', '>=', oneHourBefore);
+    gr.addQuery('preferred_date', '<=', oneHourAfter);
+    gr.addQuery('sys_id', '!=', current.sys_id); // do not self compare
+    gr.query();
+
+    if (gr.next()) {
+        gs.addErrorMessage('⚠️ There is already a post scheduled for this hour for the same platform: ' + gr.getValue('number'));
+        current.setAbortAction(true);
+    }
+})(current);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-05 10:32:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f18785c2c31d62101e1e95dc05013156</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Social media Posti - plat&amp;time collision</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="4Dot Machines" source="x_1650712_4dot_m_0">4508a3eec3d86a10fb98fd0ed4013121</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="4Dot Machines">4508a3eec3d86a10fb98fd0ed4013121</sys_scope>
+        <sys_update_name>sys_script_f18785c2c31d62101e1e95dc05013156</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-13 12:07:47</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=f18785c2c31d62101e1e95dc05013156"/>
+</record_update>
